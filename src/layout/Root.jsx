@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Home from "../Pages/HOme/Home";
+
 
 
 const Root = () => {

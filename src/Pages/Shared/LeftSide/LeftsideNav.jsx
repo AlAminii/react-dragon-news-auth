@@ -11,7 +11,7 @@ const LeftsideNav = () => {
         .then(data=> setCategories(data) )
     }, [])
     return (
-        <div space-y-6>
+        <div className='space-y-6'>
         <h1>All Caterogy {categories.length}</h1>
         {
           categories.map(category => <Link className='block ml-4 text-xl' key={category.id} 
